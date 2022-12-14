@@ -1,0 +1,348 @@
+body {
+	-webkit-print-color-adjust: exact;
+}
+
+.title{
+    display: flex;
+    height:100px;
+    width:1405px;
+    background:#00BFFF;
+    border:solid 1px black;
+}
+
+.workspace{
+    height:700px;
+    width:1407px;
+}
+
+.tools{
+    width:185px;
+    font-size:20px;
+}
+
+.tool-row{
+    display: flex;
+    height:120px;
+}
+
+.tool-row2{
+    display: flex;
+    height:50%;
+}
+
+.tool-row3{
+    display: flex;
+    height:55px;
+}
+
+.tool-row4{
+    display: flex;
+    height:40px;
+    border:solid 1px black;
+}
+
+.tool-row5{
+    display: flex;
+    height:65px;
+}
+
+.iconButton{
+    display:inline-block;
+    background:white;
+    /* color:black; */
+    padding:0px 0px;
+    cursor: pointer;
+}
+
+.tool{
+    text-align: center;
+    padding:5px 0;
+    border:solid 1px black;
+    width:33.3333333%;
+    font-size:10px;
+}
+
+.tool1{
+    width:1200px;
+    font-size:20px;
+}
+
+.tool2{
+    display: flex;
+    height:223px;
+    font-size:20px;
+}
+
+.tool3{
+    display: flex;
+    height:170px;
+    width:1151px;
+    font-size:20px;
+}
+
+.tool4{
+    text-align: center;
+    width:40px;
+    font-size:15px;
+    background:#00BFFF;
+}
+
+.tool5{
+    border:solid 2px red;
+    width:1000px;
+    font-size:20px;
+}
+
+.tool6{
+    text-align: center;
+    width:107px;
+    font-size:15px;
+    background:#00BFFF;
+}
+
+.tool7{
+    border:solid 1px black;
+    height:100%;
+    width:25%;
+    font-size:20px;
+}
+
+
+.next-to-workspace{
+    margin: 0 0 0 auto;
+    display: flex;
+}
+
+#canvasPaint{
+    position:absolute;
+    height:220px;
+    width:1000px;
+}
+
+.hinanjyouhou{
+    height:240px;
+    border: solid 1px black;
+}
+
+.hinanjyouhou-row{
+    display: flex;
+    height:395px;
+    border: solid 2px black;
+}
+
+.keikairevel{
+    display: flex;
+    height:40px;
+    border: solid 1px black;
+}
+
+.tool8{
+    text-align: center;
+    padding:10px 0;
+    width:200px;
+    font-size:20px;
+    background:#00BFFF;
+}
+
+.tool9{
+    display: flex;
+    width:95%;
+}
+
+.tool10{
+    width:95%;
+}
+
+.tool11{
+    text-align: center;
+    padding:5px 0;
+    border:solid 1px black;
+    font-size:10px;
+    width:100%;
+}
+
+.tool12{
+    text-align: center;
+    padding:5px 0;
+    border:solid 1px black;
+    font-size:10px;
+    width:100%;
+}
+
+textarea {
+resize: none;
+font-size:25px;
+width:99%;
+height:100%;
+}
+
+.tooltext{
+    border:solid 1px black;
+    height:100%;
+}
+
+.tool13{
+    padding:5px 0;
+    text-align: center;
+    border:solid 1px black;
+    height:100%;
+    width:50%;
+    font-size:20px;
+    font-weight:800;
+}
+
+.tool14{
+    text-align: center;
+    border:solid 1px black;
+    height:99%;
+    width:25%;
+    font-size:18px;
+    color:red;
+}
+
+
+.tool15{
+    text-align: center;
+    padding:10px 0;
+    width:200px;
+    line-height:140px;
+    font-size:20px;
+    background:#00BFFF;
+}
+
+.tooltext1{
+    width:95%;
+    height:195px;
+}
+
+
+.tooltext2{
+    width:99%;
+    height:125px;
+}
+
+.toolx1{
+    width:12%;
+}
+
+.toolx2{
+    width:88%;
+}
+
+.toolx3{
+    display: flex;
+    height:50%;
+}
+
+.toolx4{
+    width:65%;
+    font-size:30px;
+    text-align: center;
+}
+
+.toolx5{
+    width:35%;
+    font-size:28px;
+    text-align: right;
+}
+
+.toolx6{
+    height:50%;
+    font-size:28px;
+    text-align: right;
+}
+
+.toolx7{
+    width:220px;
+    font-size:18px;
+    background:white;
+}
+
+.toolx8{
+    text-align: center;
+    width:200px;
+    background:#8EF1FF;
+    font-size:25px;
+}
+
+.toolx9{
+    text-align: center;
+    width:330px;
+    background:#8EB8FF;
+    font-size:25px;
+}
+
+.toolx10{
+    text-align: center;
+    width:400px;
+    background:#C299FF;
+    font-size:25px;
+}
+
+.toolx11{
+    text-align: center;
+    width:70px;
+    font-size:25px;
+    background:white;
+}
+
+.toolx12{
+    text-align: center;
+    width:220px;
+    font-size:25px;
+    background:white;
+}
+
+.toolx13{
+    text-align: center;
+    width:66px;
+    height:549px;
+    background:white;
+    font-size:15px;
+    font-weight:bold;
+    border:solid 2px black;
+}
+
+.toolx14{
+    text-align: center;
+    width:200px;
+    background:#8EF1FF;
+    font-size:14px;
+}
+
+
+.toolx15{
+    text-align: center;
+    width:70px;
+    font-size:15px;
+    background:white;
+}
+
+.toolx16{
+    text-align: center;
+    font-size:25px;
+}
+
+.jyouhou{
+    display: flex;
+    height:160px;
+}
+
+.ohame{
+    display: flex;
+    height:40px;
+    font-size:15px;
+    border:solid 1px black;
+}
+
+.setumei{
+    display: flex;
+    height:30px;
+    font-size:20px;
+    background:#86F9C5;
+    border:solid 1px black;
+}
+
+input{
+    font-size:100%;
+}
