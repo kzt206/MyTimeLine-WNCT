@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="shift-js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mytimeline.css">
+    <title>MyTimeLine</title>
+</head>
+
+<body>
+<div class="title">     <!-- 画面上部のタイトル -->
+  <div class="toolx1">
+             <img src="taitoru.png">
+  </div>
+
+  <div class="toolx2">
+    <div class="toolx3">
+      <div class="toolx4">
+       大雨が降り続いているときに行う避難行動を考えよう
+      </div>
+
+      <div class="toolx5">
+        名前<input type="text" size="20">
+      </div>
+    </div>
+
+    <div class="toolx6">
+        家族構成<input type="text" size="70">
+    </div>
+  </div>
+</div>
+           <label><!-- ユーザーインターフェースの項目のキャプション-->
+
+<div class="workspace"><!-- タイトル下部のワークスペース -->
+ <div class="hinanjyouhou">  <!-- CSS(workspaceの25%のpx数を設定する) -->
+     <div class="keikairevel">  <!-- CSS(hinanjyouhouの20%のpx数を設定する) -->
+            <div class="tool8">
+            警戒レベル
+            </div>
+            <div class="tool9">
+              <div class="toolx12">
+                  1
+              </div>
+
+              <div class="toolx8">
+                  2
+              </div>
+
+              <div class="toolx9">
+                  3
+              </div>
+
+              <div class="toolx10">
+                  4
+              </div>
+
+              <div class="toolx11">
+                  5
+              </div>
+
+            </div>
+     </div>
+
+     <div class="keikairevel">  <!-- CSS(hinanjyouhouの20%のpx数を設定する) -->
+            <div class="tool8">
+            避難情報
+            </div>
+            <div class="tool9">
+              <div class="toolx7">
+               <input type="checkbox">避難に関する情報
+              </div>
+
+              <div class="toolx14">
+                自主避難など<br>
+                注意のよびかけ
+              </div>
+
+              <div class="toolx9">
+               高齢者等避難
+              </div>
+
+              <div class="toolx10">
+               避難指示
+              </div>
+
+              <div class="toolx15">
+               緊急安全確保
+              </div>
+            </div>
+     </div>
+
+     <div class="jyouhou">
+          <div class="tool15">
+          必要な情報
+          </div>
+          <div class="tool10">
+            <div class="ohame">
+              <div class="toolx7">
+               <input type="checkbox">大雨に関する情報
+              </div>
+
+              <div class="toolx8">
+               大雨・洪水注意報
+              </div>
+
+              <div class="toolx9">
+               大雨・洪水警報
+              </div>
+
+              <div class="toolx10">
+
+              </div>
+
+              <div class="toolx13">
+             <img src="ooame.png"><br>
+                  <br>
+             <img src="hanran.png"><br>
+             <img src="saigai.png">
+                <div class="toolx16">
+                  災<br>
+                  害<br>
+                  発<br>
+                  生<br>
+                  ま<br>
+                  た<br>
+                  は<br>
+                  切<br>
+                  迫
+                </div>
+              </div>
+
+            </div>
+
+            <div class="setumei">
+              住んでいる地域によって必要となる情報　　必要な情報にチェックをつけよう
+            </div>
+
+            <div class="ohame">
+              <div class="toolx7">
+               <input type="checkbox">河川の氾濫に関する情報
+              </div>
+
+              <div class="toolx8">
+               氾濫注意情報
+              </div>
+
+              <div class="toolx9">
+               氾濫警戒情報
+              </div>
+
+              <div class="toolx10">
+               氾濫危険情報
+              </div>
+            </div>
+
+            <div class="ohame">
+              <div class="toolx7">
+               <input type="checkbox">土砂災害に関する情報
+              </div>
+
+              <div class="toolx8">
+
+              </div>
+
+              <div class="toolx9">
+
+              </div>
+
+              <div class="toolx10">
+               土砂災害警戒情報
+              </div>
+            </div>
+          </div>
+     </div>
+ </div>
+ <div class="hinanjyouhou-row">
+   <div class="tools"><!-- ワークスペース左側のツールボックススペース -->
+       道具箱
+      <div class="tool-row">
+         <div class="tool">
+            <a id="jyunbiButton" class="iconButton"><img src="jyunbi.png" width:"50" height="100"></a>
+         </div>
+
+         <div class="tool">
+            <a id="kaishiButton" class="iconButton"><img src="kaishi.png" width:"50" height="80"></a>
+         </div>
+
+         <div class="tool">
+            <a id="kanryoButton" class="iconButton"><img src="kanryo.png" width:"50" height="80"></a>
+         </div>
+      </div>
+
+     <div class="tool-row3">
+         <div class="tool12">
+            <a id="jyunbiButton" class="iconButton"><img src="yajirusi.png" width="100" height="40"></a>
+         </div>
+     </div>
+
+     <div class="tool-row4">
+            <div class="tool14">
+             <a id="min1Button" class="iconButton">5分</a>
+            </div>
+            <div class="tool14">
+             <a id="min2Button" class="iconButton">10分</a>
+            </div>
+            <div class="tool14">
+             <a id="min3Button" class="iconButton">15分</a>
+            </div>
+            <div class="tool14">
+             <a id="min4Button" class="iconButton">20分</a>
+            </div>
+     </div>
+
+     <div class="tool-row4">
+            <div class="tool14">
+             <a id="min5Button" class="iconButton">25分</a>
+            </div>
+            <div class="tool14">
+             <a id="min6Button" class="iconButton">30分</a>
+            </div>
+            <div class="tool14">
+             <a id="min7Button" class="iconButton">35分</a>
+            </div>
+            <div class="tool14">
+             <a id="min8Button" class="iconButton">40分</a>
+            </div>
+     </div>
+
+     <div class="tool-row4">
+            <div class="tool14">
+             <a id="memo1Button" class="iconButton"><img src="memo1.png"></a>
+            </div>
+            <div class="tool14">
+             <a id="memo2Button" class="iconButton"><img src="memo2.png"></a>
+            </div>
+            <div class="tool14">
+             <a id="memo3Button" class="iconButton"><img src="memo3.png"></a>
+            </div>
+            <div class="tool14">
+             <a id="memo4Button" class="iconButton"><img src="memo4.png"></a>
+            </div>
+     </div>
+
+     <div class="tool-row5">
+       <div class="tool">
+         <a id="freeButton" class="iconButton"><img src="free.png" ></a>
+       </div>
+
+       <div class="tool">
+         <a id="eraserButton" class="iconButton"><img src="eraser.png" ></a> 
+       </div>
+
+       <div class="tool">
+         <a id="alleraseButton" class="iconButton"><img src="all_erase.png" ></a>
+       </div>
+
+
+     </div>
+   </div> <!-- end of tools -->
+
+   <div class="tool1">
+        <div class="tool2">
+            <div class="tool4">
+            行動
+            </div>
+            <div class="tool5">
+
+                     <canvas id="canvasPaint"></canvas>
+
+            </div>
+            <div class="tool6">
+            避難する場所
+              <div class="tooltext1">
+                <textarea></textarea>
+              </div>
+            </div>
+        </div>
+
+        <div class="tool3">
+            <div class="tool7">
+             <img src="memo1.png">
+              <div class="tooltext2">
+            <textarea></textarea>
+              </div>
+            </div>
+            <div class="tool7">
+             <img src="memo2.png">
+              <div class="tooltext2">
+            <textarea></textarea>
+              </div>
+            </div>
+            <div class="tool7">
+             <img src="memo3.png">
+              <div class="tooltext2">
+            <textarea></textarea>
+              </div>
+            </div>
+            <div class="tool7">
+             <img src="memo4.png">
+              <div class="tooltext2">
+            <textarea></textarea>
+              </div>
+            </div>
+        </div>
+
+   </div>
+
+ </div>
+</div> <!-- end of workspace -->
+
+    <script src="mytimeline.js"></script>
+
+</body>
+
+
+</html>
